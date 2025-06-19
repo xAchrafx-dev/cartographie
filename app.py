@@ -26,7 +26,7 @@ else:
         df = pd.read_csv(sheet_url)
         st.info("ℹ️ Données chargées automatiquement depuis Google Sheets.")
     except:
-        st.error("❌ Erreur de chargement des données. Merci d’importer un fichier.")
+        st.error("ℹ️ Merci d’importer un fichier.")
         st.stop()
 
 # ======= 2. Chargement GeoJSON =======
